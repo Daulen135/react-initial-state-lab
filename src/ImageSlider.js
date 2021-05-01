@@ -1,1 +1,24 @@
 // your ImageSlider code here!
+import React from 'react';
+
+
+export default class ImageSlider extends React.Component {
+
+    // we use the constructor to set the INITIAL STATE
+    constructor() {
+        super()
+        this.state = {
+        currentSlideIndex: 0
+        }
+      }
+
+    render() {
+      return (
+        <h1>I am on slide {this.state.currentSlideIndex}</h1>
+
+        
+      )
+    }
+  }
+
+
